@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE = (import.meta.env.VITE_API_URL) || 'http://localhost:5000';
+const BASE = (import.meta.env.VITE_API_URL) || 'https://vibe-cart-eh28.onrender.com';
 
 const api = {
   async getProducts() {
