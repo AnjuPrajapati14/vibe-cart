@@ -1,0 +1,11 @@
+body { font-family: system-ui, Arial; margin: 0; padding: 1rem; background: #f5f7fb; color: #111; }
+.container { max-width: 1000px; margin: 0 auto; }
+h1 { text-align: center; }
+.layout { display: flex; gap: 1rem; margin-top: 1rem; }
+.products { flex: 2; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
+.product { background: #fff; padding: 1rem; border-radius: 8px; box-shadow: 0 1px 6px rgba(0,0,0,0.06); }
+.product button { margin-top: 0.5rem; padding: 0.5rem 0.75rem; }
+.cart { flex: 1; background: #fff; padding: 1rem; border-radius: 8px; box-shadow: 0 1px 6px rgba(0,0,0,0.06); }
+.cart-item { display: flex; justify-content: space-between; margin-bottom: 0.5rem; }
+.checkout-form input { display: block; width: 100%; margin-bottom: 0.5rem; padding: 0.5rem; }
+.modal { position: fixed; top: 20%; left: 50%; transform: translateX(-50%); background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 6px 30px rgba(0,0,0,0.25); }
